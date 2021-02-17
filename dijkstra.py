@@ -6,12 +6,14 @@ import numpy as np
 import sys
 from collections import defaultdict
 
+#12 points
 def dijkstra(G: nx.Graph, w:DefaultDict,  s) ->Tuple[Dict,Dict]:
     distances, parents = defaultdict(lambda : np.INF), defaultdict(lambda:s)
     Q = []
     #TODO
     return distances,parents
 
+#3 points
 def relax(w, u, v, distances, parents) -> None:
     #TODO
     pass
